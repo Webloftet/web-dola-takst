@@ -7,6 +7,7 @@ import Homepage from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Verdivurdering from './pages/Verdivurdering';
+import Kvalitetssikring from './pages/Kvalitetssikring';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
       { path: 'om-oss', element: <About /> },
       { path: 'kontakt', element: <Contact /> },
       {path: 'verdivurdering', element: <Verdivurdering/>},
+      {path: 'kvalitetssikring', element: <Kvalitetssikring/>},
       { path: '*', element: <div className="p-10">404 – siden finnes ikke</div> },
     ],
   },
