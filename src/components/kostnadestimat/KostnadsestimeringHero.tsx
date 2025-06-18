@@ -4,7 +4,7 @@ export default function KostnadsestimeringHero() {
   return (
     <section className="bg-back px-6 py-24">
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
-        {/* Tekst */}
+
         <div className="flex-1 text-black">
           <h1 className="text-3xl md:text-5xl font-bold font-primary leading-tight">
             Kostnadsestimering <br />
@@ -21,7 +21,6 @@ export default function KostnadsestimeringHero() {
           </Link>
         </div>
 
-        {/* Bilde */}
         <div className="flex-1">
           <img
             src="/hero/re-kostnad.png"

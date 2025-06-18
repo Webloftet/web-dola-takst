@@ -22,10 +22,10 @@ export default function NarTrengerDuDette() {
           <motion.div
             key={index}
             className="flex items-start gap-4 bg-white p-4 rounded-lg shadow-sm"
-            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 30 }}
             viewport={{ once: true }}
-            transition={{ delay: index * 0.1, duration: 0.4 }}
+            transition={{ duration: 0.6 }}
           >
             <CheckCircle className="w-5 h-5 text-blue-600 mt-1" />
             <p className="text-sm font-medium">{text}</p>
