@@ -31,8 +31,8 @@ export default function BefaringDetaljer() {
         {/* Hva er en befaring */}
         <motion.div
           className="bg-white rounded-xl shadow-md p-8"
-          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 30 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
@@ -54,11 +54,10 @@ export default function BefaringDetaljer() {
           </ul>
         </motion.div>
 
-        {/* Hva ser vi etter */}
         <motion.div
           className="bg-white rounded-xl shadow-md p-8"
-          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 30 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
@@ -78,8 +77,8 @@ export default function BefaringDetaljer() {
         {/* Når bør du bestille */}
         <motion.div
           className="bg-white rounded-xl shadow-md p-8"
-          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 30 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >

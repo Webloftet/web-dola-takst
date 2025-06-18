@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop navigasjon */}
-      <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-8 text-black text-sm font-primary font-semibold">
+      <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-8 text-black text-md font-primary font-semibold">
         <NavLink to="/">Hjem</NavLink>
         <Dropdown />
         <NavLink to="/om-oss">Om oss</NavLink>

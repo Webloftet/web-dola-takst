@@ -26,7 +26,7 @@ export default function Dropdown() {
             <li><Link to="/verdivurdering">Verdivurdering</Link></li>
             <li><Link to="/Tilstand">Tilstandsrapport</Link></li>
             <li><Link to="/kostnadestimering">Kostnadsestimering</Link></li>
-            <li><Link to="/Raadgivning">Rådgivning</Link></li>
+            <li><Link to="/raadgiving">Rådgivning</Link></li>
             <li><Link to="/Kvalitetssikring">StandardKontroll</Link></li>
             <li><Link to="/Befaring">Befaring</Link></li>
           </ul>

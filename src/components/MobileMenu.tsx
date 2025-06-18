@@ -26,32 +26,32 @@ export default function MobileMenu({ close }: { close: () => void }) {
         {dropdownOpen && (
           <ul className="pl-4 mt-2 flex flex-col gap-2 text-sm">
             <li>
-              <NavLink to="/Verdivurdering" onClick={close}>
+              <NavLink to="/verdivurdering" onClick={close}>
                 Verdivurdering
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Tilstand" onClick={close}>
+              <NavLink to="/tilstand" onClick={close}>
                 Tilstandsrapport
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Kostnadsestimering" onClick={close}>
+              <NavLink to="/kostnadestimering" onClick={close}>
                 Kostnadsestimering
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Raadgivning" onClick={close}>
+              <NavLink to="/raadgiving" onClick={close}>
                 Rådgivning
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Kvalitetssikring" onClick={close}>
+              <NavLink to="/kvalitetssikring" onClick={close}>
                 StandardKontroll
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Befaring" onClick={close}>
+              <NavLink to="/befaring" onClick={close}>
                 Befaring
               </NavLink>
             </li>
