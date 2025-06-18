@@ -1,75 +1,50 @@
+# Døla Takst – Nettside
 
-# Webloftet Vekstpakken template
-
-Denne malstrukturen er laget for å brukes som grunnlag når vi bygger nettsider for "Vekstpakken"-kunder.
+Velkommen til kildekoden for **Døla Takst** sin offisielle nettside. Dette prosjektet er utviklet med fokus på tilgjengelighet, profesjonell utforming og god brukeropplevelse – med moderne teknologier som **React**, **Vite**, **Tailwind CSS** og **Framer Motion**.
 
 ## 🚀 Teknologier brukt
 
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
-- Embla 
-- React-Helmet
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Router](https://reactrouter.com/)
 
----
+## 🧱 Prosjektstruktur
+src/
+├── assets/ # Bilder og grafikk
+├── components/ # Gjenbrukbare komponenter
+├── layout/ # Felles layout (Navbar, Footer, animasjoner)
+├── pages/ # Sidekomponenter (f.eks. Hjem, Kontakt, Tjenester)
+├── router/ # React Router setup
+├── styles/ # Globale CSS-filer
+└── main.tsx # Entry point
 
-## 🛠️ Hvordan bruke denne templaten
+## 📦 Installasjon
 
-1. **Fork repoet**
-    - Gå til: [https://github.com/Webloftet/web-vekstpakken-template](https://github.com/Webloftet/web-vekstpakke-template)
-    - Klikk på **Use this template** øverst til høyre
-    - Velg din egen bruker
+1. **Klon repoet:**
 
-2. **Gi prosjektet et navn**
-    - F.eks. `nettside-sushi-restaurant`
+```bash
+git clone https://github.com/din-bruker/dola-takst.git
+cd dola-takst
 
-3. **Klone repoet lokalt**
-   ```bash
-   git clone https://github.com/ditt-brukernavn/nettside-sushi-restaurant.git
-   cd nettside-sushi-restaurant
-   
-4. **Innstaller pakker**
-    ````bash
-   npm install
+npm install
 
-5. **Start serveren**
-    ````bash
-   npm run dev
-
----
-
-## 📁 Filstruktur
-````bash
-   ├── node_modules/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── assets/                 
-│   ├── components/             
-│   │   ├── Footer.tsx
-│   │   ├── Navbar.tsx
-│   │   └── Seo.tsx             
-│   ├── layout/
-│   │   └── index.tsx           
-│   ├── pages/                 
-│   │   ├── About.tsx
-│   │   ├── Contact.tsx
-│   │   └── Home.tsx
-│   ├── index.css               
-│   ├── main.tsx                
-│   └── vite-env.d.ts           
-├── .gitignore
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── postcss.config.cjs
-├── tailwind.config.cjs
-└── README.md
-
-
-
+npm run dev
 
 ```
-```
+
+🧭 Navigasjon og routing
+Siden bruker React Router med createBrowserRouter. Alle sider er strukturert under pages/, og rutes gjennom Layout.tsx, som inkluderer animasjoner ved sideskift.
+
+✨ Funksjonalitet
+Responsivt design for mobil, nettbrett og desktop
+
+Dynamiske animasjoner ved scrolling og sideskifte
+
+Lasting av bilder med prioritet og visuell fallback (smooth loading)
+
+Klar struktur for videre utvidelse av sider eller tjenester
+
+
+
