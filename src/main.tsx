@@ -6,6 +6,7 @@ import { Layout } from './layout';
 import Homepage from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Verdivurdering from './pages/Verdivurdering';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: '', element: <Homepage /> },
       { path: 'om-oss', element: <About /> },
       { path: 'kontakt', element: <Contact /> },
+      {path: 'verdivurdering', element: <Verdivurdering/>},
       { path: '*', element: <div className="p-10">404 – siden finnes ikke</div> },
     ],
   },
