@@ -11,7 +11,7 @@ export default function Dropdown() {
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
-      <button className="flex items-center gap-1 text-black font-medium cursor-pointer">
+      <button className="flex items-center gap-1 text-black font-primary font-semibold cursor-pointer">
         Tjenester
         <ChevronDown
           className={`h-4 w-4 transition-transform duration-200 ${
