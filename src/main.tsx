@@ -9,6 +9,8 @@ import Contact from './pages/Contact'
 import Verdivurdering from './pages/Verdivurdering';
 import Kvalitetssikring from './pages/Kvalitetssikring';
 import Kostnadssestimering from './pages/Kostnadsestimering';
+import Raadgiving from './pages/Raadgivning';
+import Tilstand from './pages/Tilstand';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -20,6 +22,8 @@ const router = createBrowserRouter([
       {path: 'verdivurdering', element: <Verdivurdering/>},
       {path: 'kvalitetssikring', element: <Kvalitetssikring/>},
       {path: 'kostnadestimering', element: <Kostnadssestimering/>},
+      {path: 'raadgiving', element: <Raadgiving/>},
+      {path: 'tilstand', element: <Tilstand/>},
       { path: '*', element: <div className="p-10">404 – siden finnes ikke</div> },
     ],
   },
