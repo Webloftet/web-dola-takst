@@ -22,7 +22,7 @@ export default function VerdivurderingHero() {
 
         <div className="flex-1">
           <img
-            src="/hero/re-kostnad.png"
+            src="/hero/re-prospekt.png"
             alt="Verdivurdering"
             className="w-full h-auto object-contain"
           />
