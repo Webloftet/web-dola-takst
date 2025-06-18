@@ -8,7 +8,7 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="relative flex items-center justify-between px-6 py-4 bg-back">
+    <nav className="relative flex items-center justify-between px-6 py-4 bg-back z-50">
       {/* Logo + Firmanavn */}
       <div className="flex items-center gap-2">
         <img src="/icon/dola-logo.png" alt="Døla takst logo" className="h-8 w-auto" />
