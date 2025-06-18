@@ -1,10 +1,18 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function RaadgivningHero() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
-    <section className="bg-back px-6 py-24">
+    <section className="bg-back px-6 py-24 relative overflow-hidden">
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
-        <div className="flex-1 text-black">
+        {/* Text content - fades in when image is loaded */}
+        <div
+          className={`flex-1 text-black transition-opacity duration-700 ${
+            imageLoaded ? "opacity-100" : "opacity-0"
+          }`}
+        >
           <h1 className="text-3xl md:text-5xl font-bold font-primary leading-tight">
             Faglig rådgivning <br />
             ved kjøp og salg av bolig
@@ -20,11 +28,21 @@ export default function RaadgivningHero() {
           </Link>
         </div>
 
-        <div className="flex-1">
+        {/* Image */}
+        <div className="flex-1 relative">
+          {!imageLoaded && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-8 h-8 border-2 border-black border-t-transparent rounded-full animate-spin" />
+            </div>
+          )}
           <img
             src="/hero/re-advise.png"
             alt="Rådgivning"
-            className="w-full h-auto object-contain"
+            className={`w-full h-auto object-contain transition-opacity duration-700 ${
+              imageLoaded ? "opacity-100" : "opacity-0"
+            }`}
+            loading="eager"
+            onLoad={() => setImageLoaded(true)}
           />
         </div>
       </div>
