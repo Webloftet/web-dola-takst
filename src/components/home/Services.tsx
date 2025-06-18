@@ -14,7 +14,7 @@ export default function Services() {
       {
         title: "Kostnadsestimering",
         image: "/img/tjenester-cost.png",
-        link:"/Kostnadsestimering",
+        link:"/Kostnadestimering",
       },
       {
         title: "Rådgivning ved kjøp og salg",
