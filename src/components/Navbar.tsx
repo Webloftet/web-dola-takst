@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Dropdown from "./Dropdown";
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
     {/* Navigasjonslenker */}
     <div className="absolute left-1/2 transform -translate-x-1/2 flex gap-8 text-black text-sm font-primary font-semibold">
       <NavLink to="/">Hjem</NavLink>
-      <NavLink to="/tjenester">Tjenester</NavLink>
+      <Dropdown />
       <NavLink to="/om-oss">Om oss</NavLink>
       <NavLink to="/kontakt">Kontakt</NavLink>
     </div>
