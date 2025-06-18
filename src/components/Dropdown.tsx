@@ -23,9 +23,9 @@ export default function Dropdown() {
       {open && (
         <div className="absolute top-full left-0 bg-back z-50 px-2 py-2 w-56">
           <ul className="flex flex-col gap-2 text-sm">
-            <li><Link to="/Verdivurdering">Verdivurdering</Link></li>
+            <li><Link to="/verdivurdering">Verdivurdering</Link></li>
             <li><Link to="/Tilstand">Tilstandsrapport</Link></li>
-            <li><Link to="/Kostnadsestimering">Kostnadsestimering</Link></li>
+            <li><Link to="/kostnadestimering">Kostnadsestimering</Link></li>
             <li><Link to="/Raadgivning">Rådgivning</Link></li>
             <li><Link to="/Kvalitetssikring">StandardKontroll</Link></li>
             <li><Link to="/Befaring">Befaring</Link></li>
