@@ -1,5 +1,13 @@
+import Abouthero from "../components/about/AboutHero";
+import AboutSection from "../components/about/AboutValues";
+import ContactSection from "../components/home/ContactSection";
+
 export default function About(){
     return(
-        <h1 className="text-red-400"> this is About page</h1>
+        <>
+        <Abouthero/>
+        <AboutSection/>
+        <ContactSection/>
+        </>
     )
 }

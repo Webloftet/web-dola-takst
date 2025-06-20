@@ -28,13 +28,13 @@ export default function HvaErKvalitetssikring() {
 
   return (
     <section className="bg-back px-6 py-20 text-black">
-      <div className="max-w-5xl mx-auto text-center mb-12">
+      <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-2xl md:text-3xl font-bold font-primary">
           Hva innebærer kvalitetssikring?
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {points.map((item, index) => (
           <motion.div
             key={index}

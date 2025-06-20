@@ -17,7 +17,7 @@ export default function NarTrengerDuDette() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-6xl mx-auto">
         {scenarios.map((text, index) => (
           <motion.div
             key={index}
