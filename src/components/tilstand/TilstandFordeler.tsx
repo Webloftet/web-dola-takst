@@ -27,7 +27,7 @@ export default function TilstandsInnhold() {
 
   return (
     <section className="bg-back px-6 py-20 text-black">
-      <div className="max-w-5xl mx-auto space-y-16">
+      <div className="max-w-6xl mx-auto space-y-16">
 
         <motion.div
           className="bg-white rounded-xl shadow-md p-8"

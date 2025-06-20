@@ -11,7 +11,7 @@ export default function HvorforRaadgivning() {
 
   return (
     <section className="bg-back px-6 py-20 text-black">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           className="bg-white rounded-xl shadow-md p-8"
           whileInView={{ opacity: 1, y: 0 }}
