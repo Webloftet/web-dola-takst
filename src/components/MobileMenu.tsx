@@ -62,9 +62,6 @@ export default function MobileMenu({ close }: { close: () => void }) {
       <NavLink to="/om-oss" onClick={close}>
         Om oss
       </NavLink>
-      <NavLink to="/kontakt" onClick={close}>
-        Kontakt
-      </NavLink>
     </div>
   );
 }

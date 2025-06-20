@@ -20,7 +20,6 @@ const Navbar = () => {
         <NavLink to="/">Hjem</NavLink>
         <Dropdown />
         <NavLink to="/om-oss">Om oss</NavLink>
-        <NavLink to="/kontakt">Kontakt</NavLink>
       </div>
 
       {/* Mobil menyikon */}
