@@ -16,9 +16,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         <div className="flex flex-col gap-2 text-sm">
           <p>
-            <strong>Døla takst og bygg AS</strong>
+            <strong>Dola takst og bygg AS</strong>
           </p>
-          <p>Sverdrups gate 21</p>
+          <p>Bøkkerveien 16</p>
           <p>0559 OSLO</p>
           <p>
             <a href="tel:+4792222222" className="font-bold hover:text-arrow">
