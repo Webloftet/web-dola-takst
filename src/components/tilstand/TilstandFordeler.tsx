@@ -82,7 +82,7 @@ export default function TilstandsInnhold() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl md:text-3xl font-bold font-primary mb-4">
-            Fordeler med Døla Takst
+            Fordeler med Dola Takst
           </h2>
           <ul className="space-y-3">
             {fordeler.map((item, index) => (

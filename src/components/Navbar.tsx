@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* Logo + Firmanavn */}
       <div className="flex items-center gap-2">
         <img src="/icon/dola-logo.png" alt="Døla takst logo" className="h-8 w-auto" />
-        <span className="text-xl font-primary font-bold text-black">Døla takst</span>
+        <span className="text-xl font-primary font-bold text-black">Dola takst</span>
       </div>
 
       {/* Desktop navigasjon */}

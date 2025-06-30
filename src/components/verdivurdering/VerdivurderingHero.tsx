@@ -17,7 +17,7 @@ export default function VerdivurderingHero() {
             Nøyaktig verdivurdering <br /> for bolig og næring
           </h1>
           <p className="mt-4 text-base md:text-lg font-light max-w-lg">
-            Vi hjelper deg med å få en realistisk og dokumentert markedsverdi enten du skal selge, refinansiere eller bare
+            Vi hjelper deg med å få en realistisk og dokumentert markedsverdi enten du skal selge, refinansiere eller bare trenger en verdivurdering
           </p>
           <Link
             to="/kontakt"
