@@ -45,7 +45,7 @@ export default function Services() {
               <NavLink
                 to={service.link}
                 key={index}
-                className="group p-6 rounded-lg border border-gray-200 hover:border-footer  hover:shadow-md transition-all text-center"
+                className="group p-6 rounded-lg border border-gray-400 hover:border-footer  hover:shadow-md transition-all text-center"
               >
                 <img
                   src={service.image}

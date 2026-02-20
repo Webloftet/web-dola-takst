@@ -5,7 +5,7 @@ export default function KostnadsestimeringHero() {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <section className="bg-back px-6 py-24 relative overflow-hidden">
+    <section className="bg-back px-6 py-14 relative overflow-hidden">
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
 
         <div

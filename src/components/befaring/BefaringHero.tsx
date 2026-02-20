@@ -5,7 +5,7 @@ export default function BefaringHero() {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <section className="bg-back px-6 py-24 relative overflow-hidden">
+    <section className="bg-back px-6 py-18 relative overflow-hidden">
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
 
         <div
@@ -14,7 +14,7 @@ export default function BefaringHero() {
           }`}
         >
           <h1 className="text-3xl md:text-5xl font-bold font-primary leading-tight">
-            Befaring og inspeksjon av <br /> eiendom – utført av fagfolk
+            Befaring og inspeksjon av eiendom – utført av fagfolk
           </h1>
           <p className="mt-4 text-base md:text-lg font-light max-w-lg">
             Vi tilbyr grundig og uavhengig befaring av bolig, bygg og tomt – for å avdekke tilstand, skade eller behov.

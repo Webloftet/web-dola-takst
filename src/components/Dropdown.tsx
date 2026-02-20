@@ -21,16 +21,64 @@ export default function Dropdown() {
       </button>
 
       {open && (
-        <div className="absolute top-full left-0 bg-back z-50 px-2 py-2 w-56">
-          <ul className="flex flex-col gap-2 text-sm">
-            <li><Link to="/verdivurdering">Verdivurdering</Link></li>
-            <li><Link to="/Tilstand">Tilstandsrapport</Link></li>
-            <li><Link to="/kostnadestimering">Kostnadsestimering</Link></li>
-            <li><Link to="/raadgiving">Rådgivning</Link></li>
-            <li><Link to="/Kvalitetssikring">StandardKontroll</Link></li>
-            <li><Link to="/Befaring">Befaring</Link></li>
-          </ul>
-        </div>
+          <div className="absolute top-full left-0 border border-gray-400 bg-back z-50 px-2 py-2 w-56 rounded-lg shadow-lg">
+            <ul className="flex flex-col text-sm">
+              <li>
+                <Link
+                    to="/verdivurdering"
+                    onClick={() => setOpen(false)}
+                    className="block px-3 py-2 rounded-md hover:bg-blue-600 hover:text-white transition-colors duration-200"
+                >
+                  Verdivurdering
+                </Link>
+              </li>
+              <li>
+                <Link
+                    to="/tilstand"
+                    onClick={() => setOpen(false)}
+                    className="block px-3 py-2 rounded-md hover:bg-blue-600 hover:text-white transition-colors duration-200"
+                >
+                  Tilstandsrapport
+                </Link>
+              </li>
+              <li>
+                <Link
+                    to="/kostnadestimering"
+                    onClick={() => setOpen(false)}
+                    className="block px-3 py-2 rounded-md hover:bg-blue-600 hover:text-white transition-colors duration-200"
+                >
+                  Kostnadsestimering
+                </Link>
+              </li>
+              <li>
+                <Link
+                    to="/raadgiving"
+                    onClick={() => setOpen(false)}
+                    className="block px-3 py-2 rounded-md hover:bg-blue-600 hover:text-white transition-colors duration-200"
+                >
+                  Rådgivning
+                </Link>
+              </li>
+              <li>
+                <Link
+                    to="/kvalitetssikring"
+                    onClick={() => setOpen(false)}
+                    className="block px-3 py-2 rounded-md hover:bg-blue-600 hover:text-white transition-colors duration-200"
+                >
+                  Standard kontroll
+                </Link>
+              </li>
+              <li>
+                <Link
+                    to="/befaring"
+                    onClick={() => setOpen(false)}
+                    className="block px-3 py-2 rounded-md hover:bg-blue-600 hover:text-white transition-colors duration-200"
+                >
+                  Befaring
+                </Link>
+              </li>
+            </ul>
+          </div>
       )}
     </div>
   );

@@ -26,7 +26,7 @@ export default function BefaringDetaljer() {
   ];
 
   return (
-    <section className="bg-back px-6 py-20 text-black">
+    <section className="bg-back px-6 py-10 text-black">
       <div className="max-w-6xl mx-auto space-y-16">
         {/* Hva er en befaring */}
         <motion.div

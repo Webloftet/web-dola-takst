@@ -9,7 +9,7 @@ export default function VedRefinansiering() {
   ];
 
   return (
-    <section className="bg-back px-6 py-20 text-black">
+    <section className="bg-back px-6 py-12 text-black">
       <div className="max-w-6xl mx-auto">
         <motion.div
           className="bg-white rounded-xl shadow-md p-8"
