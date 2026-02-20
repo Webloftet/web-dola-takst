@@ -16,13 +16,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         <div className="flex flex-col gap-2 text-sm">
           <p>
-            <strong>Dola takst og bygg AS</strong>
+            <strong>Din takst og bygg AS</strong>
           </p>
-          <p>Bøkkerveien 16</p>
-          <p>0559 OSLO</p>
+          <p>Osloveien 1</p>
+          <p>1234 OSLO</p>
           <p>
             <a href="tel:+4792222222" className="font-bold hover:text-arrow">
-              +47 92 22 22 22
+              +47 12 34 56 78
             </a>
           </p>
           <p>
@@ -30,7 +30,7 @@ export default function Footer() {
               href="mailto:post@dolataks.no"
               className="font-bold hover:text-arrow"
             >
-              post@dolataks.no
+              post@dintakst.no
             </a>
           </p>
           <div className="flex gap-3 mt-2">
@@ -81,8 +81,8 @@ export default function Footer() {
 
       <div className="text-center text-white text-xs mt-10">
         Denne nettsiden er designet og utviklet av{" "}
-        <a href="https://webloftet.no" className="underline">
-          WebLoftet.no
+        <a href="https://webloftet.no" target='_blank' className="underline">
+          Webloftet.no
         </a>
       </div>
     </footer>

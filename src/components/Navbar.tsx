@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Menu } from "lucide-react";
 import Dropdown from "./Dropdown";
@@ -8,12 +8,14 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="relative flex items-center justify-between px-6 py-4 bg-back z-50">
+    <nav className="relative flex items-center justify-between px-6 py-4 border-b bg-back z-50 lg:px-20 lg:py-8">
       {/* Logo + Firmanavn */}
-      <div className="flex items-center gap-2">
-        <img src="/icon/dola-logo.png" alt="Døla takst logo" className="h-8 w-auto" />
-        <span className="text-xl font-primary font-bold text-black">Dola takst</span>
-      </div>
+        <Link to="/">
+            <div className="flex items-center gap-2">
+                <img src="/icon/dola-logo.png" alt="Døla takst logo" className="h-8 w-auto" />
+                <span className="text-xl font-primary font-bold text-black">Din takst</span>
+            </div>
+        </Link>
 
       {/* Desktop navigasjon */}
       <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-8 text-black text-md font-primary font-semibold">

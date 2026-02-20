@@ -27,7 +27,7 @@ export default function FordelerMedOss() {
   ];
 
   return (
-    <section className="bg-back px-6 py-20 text-black">
+    <section className="bg-back px-6 py-12 text-black">
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-2xl md:text-3xl font-bold font-primary">
           Fordeler med oss

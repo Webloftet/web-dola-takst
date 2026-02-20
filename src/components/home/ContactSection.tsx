@@ -26,21 +26,21 @@ export default function ContactSection() {
 
             <div className="flex-1 flex flex-col gap-4">
               <a
-                href="tel:+4748385839"
+                href="tel:+4712345678"
                 className="flex items-center gap-3 hover:underline"
               >
                 <Phone className="w-5 h-5" />
                 <span className="text-sm md:text-base font-light">
-                  +47 483 85 839
+                  +47 12 34 56 78
                 </span>
               </a>
               <a
-                href="mailto:post@dolataks.no"
+                href="mailto:post@dintaks.no"
                 className="flex items-center gap-3 hover:underline"
               >
                 <Mail className="w-5 h-5" />
                 <span className="text-sm md:text-base font-light">
-                  post@dolataks.no
+                  post@dintakst.no
                 </span>
               </a>
             </div>

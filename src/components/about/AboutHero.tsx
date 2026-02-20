@@ -15,7 +15,7 @@ export default function Abouthero() {
             Takst med integritet, <span>nøyaktighet og lokal forankring</span>
           </h1>
           <p className="mt-4 text-base md:text-lg font-light max-w-lg">
-            Døla Takst holder til i Oslo, men har dype røtter i Lillehammer og
+            Din Takst holder til i Oslo, men har dype røtter i Lillehammer og
             Gudbrandsdalen. Det gir oss en unik forståelse av både urban
             arkitektur og tradisjonell hyttestandard.
           </p>

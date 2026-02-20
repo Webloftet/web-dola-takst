@@ -6,14 +6,14 @@ export default function Hero() {
 
   useEffect(() => {
     const img = new Image();
-    img.src = "/hero/resize-bg.png";
+    img.src = "/hero/resize-bg.jpg";
     img.onload = () => setBgLoaded(true);
   }, []);
 
   return (
     <section
       className={`relative bg-no-repeat bg-cover bg-center text-black md:min-h-screen transition-opacity duration-700 ${
-        bgLoaded ? "bg-[url('/hero/resize-bg.png')] opacity-100" : "opacity-0"
+        bgLoaded ? "bg-[url('/hero/resize-bg.jpg')] opacity-100" : "opacity-0"
       }`}
     >
 
@@ -26,7 +26,7 @@ export default function Hero() {
       )}
 
       {bgLoaded && (
-        <div className="relative px-6 py-24 max-w-4xl z-10 lg:ml-22 transition-opacity duration-700 opacity-100">
+        <div className="relative px-6 py-48 max-w-4xl z-10 lg:ml-22 transition-opacity duration-700 opacity-100">
           <h1 className="text-3xl md:text-5xl font-bold font-primary leading-tight">
             Verdi & takstvurdering <br /> for bolig og næring
           </h1>
