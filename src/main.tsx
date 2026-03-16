@@ -12,6 +12,7 @@ import Kostnadssestimering from './pages/Kostnadsestimering';
 import Raadgiving from './pages/Raadgivning';
 import Tilstand from './pages/Tilstand';
 import Befaring from './pages/Befaring';
+import NotFound from './pages/NotFound';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       {path: 'raadgiving', element: <Raadgiving/>},
       {path: 'tilstand', element: <Tilstand/>},
       {path: 'befaring', element: <Befaring/>},
-      { path: '*', element: <div className="p-10">404 – siden finnes ikke</div> },
+      { path: '*', element: <NotFound /> },
     ],
   },
 ])

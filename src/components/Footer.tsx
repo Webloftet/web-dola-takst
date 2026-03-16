@@ -10,7 +10,7 @@ export default function Footer() {
         className="max-w-6xl mx-auto flex items-center gap-2 mb-8 text-sm font-medium hover:underline"
       >
         <ArrowUp className="w-4 h-4 animate-bounce text-arrow" />
-        Til Toppen
+        Til toppen
       </a>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -27,7 +27,7 @@ export default function Footer() {
           </p>
           <p>
             <a
-              href="mailto:post@dolataks.no"
+              href="mailto:post@dintakst.no"
               className="font-bold hover:text-arrow"
             >
               post@dintakst.no
@@ -48,17 +48,10 @@ export default function Footer() {
 
         <div className="flex flex-col gap-2 text-sm font-medium">
           <NavLink
-            to="/tjenester"
+            to="/"
             className="flex items-center gap-2 hover:underline"
           >
             Våre tjenester
-            <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-          </NavLink>
-          <NavLink
-            to="/kontakt"
-            className="flex items-center gap-2 hover:underline"
-          >
-            Kontakt oss
             <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </NavLink>
           <NavLink
@@ -81,7 +74,7 @@ export default function Footer() {
 
       <div className="text-center text-white text-xs mt-10">
         Denne nettsiden er designet og utviklet av{" "}
-        <a href="https://webloftet.no" target='_blank' className="underline">
+        <a href="https://webloftet.no" target="_blank" rel="noopener noreferrer" className="underline">
           Webloftet.no
         </a>
       </div>

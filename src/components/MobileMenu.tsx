@@ -47,7 +47,7 @@ export default function MobileMenu({ close }: { close: () => void }) {
             </li>
             <li>
               <NavLink to="/kvalitetssikring" onClick={close}>
-                StandardKontroll
+                Standard kontroll
               </NavLink>
             </li>
             <li>

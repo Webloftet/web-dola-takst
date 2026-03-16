@@ -35,7 +35,7 @@ export default function ContactSection() {
                 </span>
               </a>
               <a
-                href="mailto:post@dintaks.no"
+                href="mailto:post@dintakst.no"
                 className="flex items-center gap-3 hover:underline"
               >
                 <Mail className="w-5 h-5" />
