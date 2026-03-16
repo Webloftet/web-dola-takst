@@ -4,32 +4,32 @@ export default function Services() {
       {
         title: "Nøyaktig verdivurdering",
         image: "/img/search.png",
-        link: "/Verdivurdering",
+        link: "/verdivurdering",
       },
       {
         title: "Kvalitetssikring og standardkontroll",
         image: "/img/check-list.png",
-        link: "/Kvalitetssikring",
+        link: "/kvalitetssikring",
       },
       {
         title: "Kostnadsestimering",
         image: "/img/tjenester-cost.png",
-        link:"/Kostnadestimering",
+        link: "/kostnadestimering",
       },
       {
         title: "Rådgivning ved kjøp og salg",
         image: "/img/cons.png",
-        link:"/Raadgiving",
+        link: "/raadgiving",
       },
       {
         title: "Tilstandsrapportering",
         image: "/img/permit.png",
-        link:"/Tilstand",
+        link: "/tilstand",
       },
       {
         title: "Befaring og inspeksjon",
         image: "/img/f2f.png",
-        link:"/Befaring",
+        link: "/befaring",
       },
     ];
   
@@ -41,10 +41,10 @@ export default function Services() {
           </h2>
   
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {services.map((service, index) => (
+            {services.map((service) => (
               <NavLink
                 to={service.link}
-                key={index}
+                key={service.link}
                 className="group p-6 rounded-lg border border-gray-400 hover:border-footer  hover:shadow-md transition-all text-center"
               >
                 <img
